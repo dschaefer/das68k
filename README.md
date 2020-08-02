@@ -18,3 +18,4 @@ Then you need software. My current thinking is to base it off the gcc m68k C cro
 We'd then provide shared libraries for the peripherals. Of course we then need a program loader and we can use ELF and the loader can managed the shared libraries and hooking things up. Hopefully that all fits in the small memory that we have, but did for Linux which was born on such machines.
 
 And we go from there. Take a look at bringing MicroPython and hooking that up. And then bring on the games.
+So there
