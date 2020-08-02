@@ -15,8 +15,6 @@ verilate(das68k
     TOP_MODULE das68k
 )
 
-add_executable(dasputer sim_main.cpp)
-target_link_libraries(dasputer PUBLIC das68k)
-
+add_subdirectory(sim)
 add_subdirectory(googletest)
 add_subdirectory(test)

@@ -39,7 +39,7 @@ int main(int argc, char **argv) {
 
     init_rom();
 
-    Vdas6824 *cpu = new Vdas6824;
+    Vdas68k *cpu = new Vdas68k;
 
     cpu->clk = 0;
     cpu->reset = 0;
